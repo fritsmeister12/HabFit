@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.grey[300],
       body: ListView(children: [
         HabitTile(
-          habitName: 'Ontbijten',
+          habitName: 'Ontb  S',
           habitCompleted: habitCompleted,
           onChanged: (value) => checkBoxTapped(value),
         ),
